@@ -369,33 +369,33 @@
     </div>
     <div class="collections">
       <div class="collection-card c1" data-name="Classic Layer Cakes" data-price="58"
-           style="background-image:url('wedding-cake.jpeg'); background-size:cover; background-position:center;">
-       <img src="WhatsApp Image 2026-09-14 at 4.10.29 PM.jpeg"height="300">
+           style="background-image:url('wedding-cake.jpg'); background-size:cover; background-position:center;">
+       <img src="WhatsApp Image 2026-09-14 at 4.10.29 PM.jpg"height="300">
          <h3>Classic</h3> <p>Timeless flavors, done properly</p>
       </div>
       <div class="collection-card c2" data-name="Wedding Cakes" data-price="480"
-           style="background-image:url('wedding-cake.jpeg'); background-size:cover; background-position:center;">
-        <img src="wedding-cake.jpeg " width="1200"height="300">
+           style="background-image:url('wedding-cake.jpg'); background-size:cover; background-position:center;">
+        <img src="wedding-cake.jpg " width="1200"height="300">
         <h3>Wedding</h3><p>Tiered cakes for the big day</p>
       </div>
       <div class="collection-card c3" data-name="Celebration Cakes" data-price="72"
            style="background-image:url('images/celebration.jpg'); background-size:cover; background-position:center;">
-       <img src="WhatsApp Image 2026-09-14 at 4.10.30 PM (3).jpeg"height="300">
+       <img src="WhatsApp Image 2026-09-14 at 4.10.30 PM (3).jpg"height="300">
            <h3>Celebration</h3><p>Birthdays, showers, milestones</p>
       </div>
       <div class="collection-card c4" data-name="Custom Sculpted Cakes" data-price="145"
            style="background-image:url('images/custom.jpg'); background-size:cover; background-position:center;">
-       <img src="WhatsApp Image 2026-09-14 at 4.10.31 PM (1).jpeg"height="300">
+       <img src="WhatsApp Image 2026-09-14 at 4.10.31 PM (1).jpg"height="300">
            <h3>Custom</h3><p>Your idea, built from scratch</p>
       </div>
       <div class="collection-card c5" data-name="Seasonal Cakes" data-price="64"
            style="background-image:url('images/seasonal.jpg'); background-size:cover; background-position:center;">
-       <img src="WhatsApp Image 2026-09-14 at 4.10.32 PM (1).jpeg"height="300">
+       <img src="WhatsApp Image 2026-09-14 at 4.10.32 PM (1).jpg"height="300">
            <h3>Seasonal</h3><p>Fruit and flavor, by the month</p>
       </div>
       <div class="collection-card c6" data-name="Gift Boxes" data-price="38"
            style="background-image:url('images/gift-box.jpg'); background-size:cover; background-position:center;">
-        <img src="WhatsApp Image 2026-09-14 at 4.10.32 PM (2).jpeg"height="300">
+        <img src="WhatsApp Image 2026-09-14 at 4.10.32 PM (2).jpg"height="300">
            <h3>Gift Boxes</h3><p>Mini cakes, sent anywhere</p>
       </div>
     </div>
