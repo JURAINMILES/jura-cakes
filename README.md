@@ -1,7 +1,7 @@
  Jura & Cakes
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Jura and Cakes — Cakes Worth the Occasion</title>
@@ -271,10 +271,29 @@
   .cart-item button{ background:none; border:none; color:var(--berry); cursor:pointer; font-size:.8rem; }
   .drawer-foot{ padding:24px; border-top:1px solid rgba(46,32,24,.1); }
   .drawer-foot .btn{ width:100%; text-align:center; }
+  .whatsapp-float{
+  position:fixed;
+  bottom:24px;
+  right:24px;
+  width:60px;
+  height:60px;
+  background:#25D366;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  box-shadow:0 6px 16px rgba(0,0,0,.3);
+  z-index:200;
+}
+.whatsapp-float:hover{
+  background:#1ebe57;
+}
+
+
 </style>
 </head>
-<body>
-
+<body style="background-color: #e6e5e8d6;" div style="background-image:('WhatsApp Image 2026-09-14 at 4.10.30 PM (1).jpeg')" >
+   
 <header>
   <div class="wrap nav-row">
     <a href="#top" class="logo">
@@ -341,32 +360,45 @@
   </div>
 
   <!-- COLLECTIONS -->
-   <div class="collections">
-  <div class="collection-card c1" data-name="Classic Layer Cakes" data-price="58"
-       style="background-image:url(' '); background-size:cover; background-position:center;">
-    <h3>Classic</h3><p>Timeless flavors, done properly</p>
-  </div>
-  <div class="collection-card c2" data-name="Wedding Cakes" data-price="480"
-       style="background-image:url('images/wedding.jpeg'); background-size:cover; background-position:center;">
-    <h3>Wedding</h3><p>Tiered cakes for the big day</p>
-  </div>
-  <div class="collection-card c3" data-name="Celebration Cakes" data-price="72"
-       style="background-image:url('images/celebration.jpeg'); background-size:cover; background-position:center;">
-    <h3>Celebration</h3><p>Birthdays, showers, milestones</p>
-  </div>
-  <div class="collection-card c4" data-name="Custom Sculpted Cakes" data-price="145"
-       style="background-image:url('images/custom.jpeg'); background-size:cover; background-position:center;">
-    <h3>Custom</h3><p>Your idea, built from scratch</p>
-  </div>
-  <div class="collection-card c5" data-name="Seasonal Cakes" data-price="64"
-       style="background-image:url('images/seasonal.jpeg'); background-size:cover; background-position:center;">
-    <h3>Seasonal</h3><p>Fruit and flavor, by the month</p>
-  </div>
-  <div class="collection-card c6" data-name="Gift Boxes" data-price="38"
-       style="background-image:url('images/gift-box.jpeg'); background-size:cover; background-position:center;">
-    <h3>Gift Boxes</h3><p>Mini cakes, sent anywhere</p>
-  </div>
-</div>
+  <section class="wrap section" id="collections">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">Signature Offerings</p>
+        <h2>Explore Collections</h2>
+      </div>
+    </div>
+    <div class="collections">
+      <div class="collection-card c1" data-name="Classic Layer Cakes" data-price="58"
+           style="background-image:url('wedding-cake.jpeg'); background-size:cover; background-position:center;">
+       <img src="WhatsApp Image 2026-09-14 at 4.10.29 PM.jpeg"height="300">
+         <h3>Classic</h3> <p>Timeless flavors, done properly</p>
+      </div>
+      <div class="collection-card c2" data-name="Wedding Cakes" data-price="480"
+           style="background-image:url('wedding-cake.jpeg'); background-size:cover; background-position:center;">
+        <img src="wedding-cake.jpeg " width="1200"height="300">
+        <h3>Wedding</h3><p>Tiered cakes for the big day</p>
+      </div>
+      <div class="collection-card c3" data-name="Celebration Cakes" data-price="72"
+           style="background-image:url('images/celebration.jpg'); background-size:cover; background-position:center;">
+       <img src="WhatsApp Image 2026-09-14 at 4.10.30 PM (3).jpeg"height="300">
+           <h3>Celebration</h3><p>Birthdays, showers, milestones</p>
+      </div>
+      <div class="collection-card c4" data-name="Custom Sculpted Cakes" data-price="145"
+           style="background-image:url('images/custom.jpg'); background-size:cover; background-position:center;">
+       <img src="WhatsApp Image 2026-09-14 at 4.10.31 PM (1).jpeg"height="300">
+           <h3>Custom</h3><p>Your idea, built from scratch</p>
+      </div>
+      <div class="collection-card c5" data-name="Seasonal Cakes" data-price="64"
+           style="background-image:url('images/seasonal.jpg'); background-size:cover; background-position:center;">
+       <img src="WhatsApp Image 2026-09-14 at 4.10.32 PM (1).jpeg"height="300">
+           <h3>Seasonal</h3><p>Fruit and flavor, by the month</p>
+      </div>
+      <div class="collection-card c6" data-name="Gift Boxes" data-price="38"
+           style="background-image:url('images/gift-box.jpg'); background-size:cover; background-position:center;">
+        <img src="WhatsApp Image 2026-09-14 at 4.10.32 PM (2).jpeg"height="300">
+           <h3>Gift Boxes</h3><p>Mini cakes, sent anywhere</p>
+      </div>
+    </div>
   </section>
 
   <!-- CUSTOM ORDER PROMO -->
@@ -527,7 +559,7 @@
     <a href="#contact" class="btn btn-solid" id="checkoutBtn">Checkout</a>
   </div>
 </div>
-
+     
 <script>
   const cart = [];
   const cartOpenBtn = document.getElementById('cartOpenBtn');
@@ -571,6 +603,10 @@
 
   renderCart();
 </script>
-
+<a href="https://wa.me/254700000000" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 24 24" width="34" height="34" fill="#fff" xmlns="http://www.w3.org/2000/svg">
+    <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.77 14.13c-.24.68-1.4 1.3-1.93 1.38-.49.08-1.11.11-1.79-.11-.41-.13-.95-.31-1.63-.6-2.87-1.24-4.74-4.14-4.88-4.33-.14-.19-1.17-1.55-1.17-2.96 0-1.41.74-2.1 1-2.39.26-.29.57-.36.76-.36h.55c.18 0 .41-.01.63.48.23.51.77 1.85.84 1.99.07.14.12.3.02.49-.09.19-.14.31-.28.48-.14.17-.29.37-.42.5-.14.14-.28.29-.12.57.16.28.71 1.17 1.53 1.9 1.05.94 1.93 1.23 2.21 1.37.28.14.44.12.6-.07.16-.19.68-.8.87-1.07.18-.28.36-.23.6-.14.24.09 1.54.73 1.81.86.26.14.44.2.5.31.07.11.07.66-.17 1.3z"/>
+  </svg>
+</a>
 </body>
 </html>
